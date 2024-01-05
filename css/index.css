@@ -27,4 +27,16 @@ body {
             margin-right: auto;
             height: 100px; 
         }
+
+        .overlay-text{
+            position:absolute;
+            top: 33%; 
+            left: 33%; 
+            /* transform: translate(-50%,-150%);  */
+            background-color: #918282; 
+            color: #fff; 
+            padding: 10px 20px; 
+            font-size: 20px; 
+            text-align: center;
+        }
     
