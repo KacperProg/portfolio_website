@@ -1,6 +1,7 @@
 body {
             margin: 0;
             font-family: Tahoma, sans-serif;
+            background-color: rgb(115, 208, 254);
         }
 
         .row-header {
