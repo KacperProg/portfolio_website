@@ -51,3 +51,13 @@ body {
             flex-wrap: wrap;
             justify-content: space-between;
         }
+
+        .skill-icon {
+            text-align: center;
+            margin: 10px;
+          }
+
+        .skill-icon h1 {
+            margin-top: 5px;
+            font-size: 14px; /* Adjust the font size as needed */
+          }          
