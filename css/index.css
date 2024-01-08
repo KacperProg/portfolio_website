@@ -9,7 +9,12 @@ body {
             padding: 10px;
             display: flex;
             justify-content: space-between;
-            align-items: center;        }
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000; /* ensures element appears on top of other elements  */
+        }
 
         .row-header li {
             margin: 0 15px;
@@ -43,13 +48,13 @@ body {
         .row {
             width: 100%;
             display: flex;
-            justify-content: space-between;
+            justify-content: space-evenly;
           }
 
         .my-skills {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
+            justify-content:space-around;
         }
 
         .skill-icon {
