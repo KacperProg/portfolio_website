@@ -17,7 +17,7 @@ body {
 
 .banner.smaller {
     transition: padding 0.3s; 
-    height: 60px; 
+    height: 80px; 
     padding: -10px;
 }
 
