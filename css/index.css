@@ -1,0 +1,76 @@
+body {
+            margin: 0;
+            font-family: Tahoma, sans-serif;
+            background-color: rgb(115, 208, 254);
+        }
+
+        .row-header {
+            background-color: #828282;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000; /* ensures element appears on top of other elements  */
+        }
+
+        .row-header li {
+            margin: 0 15px;
+        }
+
+        .row-header ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .myLogo {
+            margin-right: auto;
+            height: 100px; 
+        }
+
+        .overlay-text{
+            position:absolute;
+            top: 33%; 
+            left: 33%; 
+            /* transform: translate(-50%,-150%);  */
+            background-color: #918282; 
+            color: #fff; 
+            padding: 10px 20px; 
+            font-size: 20px; 
+            text-align: center;
+        }
+
+        .row {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+          }
+
+        .my-skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:space-around;
+        }
+
+        .skill-icon {
+            text-align: center;
+            margin: 10px;
+          }
+
+        .skill-icon h1 {
+            margin-top: 5px;
+            font-size: 14px; /* Adjust the font size as needed */
+          }          
+
+        .about-me {
+            text-align: center;
+        }
+
+        .contact-me {
+            text-align: center;
+        }
